@@ -1,5 +1,5 @@
 import "../css/form.css"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Form = (props) =>{
 
@@ -7,7 +7,13 @@ const Form = (props) =>{
 		setUserinfo(data)
 	}
 
-	const [userinfo, setUserinfo] = useState("Some")
+	const [userinfo, setUserinfo] = useState(2)
+
+	useEffect(() =>{
+		let obj = document.getElementsByClassName('maintext')
+		for (let i = 0 ; i < obj.length; i++)
+		obj[i].innerText = userinfo
+	})
 
 	return (
 		<form>
@@ -19,6 +25,7 @@ const Form = (props) =>{
 			>
 				Click me
 			</button>
+			<p className="maintext"></p>
 		</form>
 	);
 	
