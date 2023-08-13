@@ -1,0 +1,16 @@
+*{
+	margin: 0 ;
+	padding-top:10px;
+	padding-left:10px;
+	font-size: 20px;
+	outline: none;
+}
+body{
+	background-color: #767575;
+	color: #fff;
+	height: 100vh;
+}
+h1{
+	font-size: 40px;
+	color: rgb(27, 32, 64);
+}

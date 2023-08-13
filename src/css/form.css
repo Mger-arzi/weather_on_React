@@ -1,0 +1,28 @@
+.input{
+	width: 300px;
+	border-radius: 5px;
+	border: 0;
+	margin: 20px;
+	padding: 10px;
+	border: 1px solid transparent;
+	background-color: #000;
+	color: #fff;
+	outline: none;
+}
+.input:focus{
+	border-color: red;
+}
+form button{
+	padding: 5px 12px;
+	border-radius: 10px;
+	border: none;
+	border-bottom: 7px solid rgba(49, 48, 48, 0.904);
+	text-transform: uppercase;
+	cursor: pointer;
+	background: rgb(203, 20, 20);
+	color: #000;
+	transition: all 500ms ease;
+}
+form button:hover{
+	transform: translateY(-5px);
+}
