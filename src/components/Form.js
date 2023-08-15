@@ -7,8 +7,7 @@ const Form = (props) =>{
 		setUserinfo(data)
 	}
 
-	const [userinfo, setUserinfo] = useState(2)
-
+	const [userinfo, setUserinfo] = useState('sdfds')
 	useEffect(() =>{
 		let obj = document.getElementsByClassName('maintext')
 		for (let i = 0 ; i < obj.length; i++)
