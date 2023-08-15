@@ -8,6 +8,7 @@ const Form = (props) =>{
 	}
 
 	const [userinfo, setUserinfo] = useState('sdfds')
+
 	useEffect(() =>{
 		let obj = document.getElementsByClassName('maintext')
 		for (let i = 0 ; i < obj.length; i++)
@@ -24,7 +25,11 @@ const Form = (props) =>{
 			>
 				Click me
 			</button>
-			<p className="maintext"></p>
+			<p className="maintext">213d</p>
+			<p className="maintext">32435</p>
+			<p className="maintext">sdeew2</p>
+			<p className="maintext">sd</p>
+			<p className="maintext">900</p>
 		</form>
 	);
 	
